@@ -56,7 +56,7 @@
                             <div class="d-flex">
                                 <div class="fas fa-temperature-low pe-1" style="color:green"></div>
                                 <strong>Temperature</strong>
-                                <div id ="kitchenTemp" class="ms-auto">21.6ºC</div>
+                                <div id="kitchenTemp" class="ms-auto">21.6ºC</div>
                             </div>
                             <div class="card-text">5 minutes ago</div>
                         </div>
@@ -65,8 +65,8 @@
                             <div class="d-flex">
                                 <i id="bulbIcon" class="far fa-lightbulb text-dark pe-1"></i>
                                 <strong> Lights</strong>
-                                <a id ="kitchenLights" href="#" class="ms-auto"> 
-                                    <i id ="iconKL" class="fas fa-lg fa-toggle-off"></i>
+                                <a id="kitchenLights" href="#" class="ms-auto">
+                                    <i id="iconKL" class="fas fa-lg fa-toggle-off"></i>
                                 </a>
                             </div>
                             <div class="card-text">10 minutes ago</div>
@@ -107,8 +107,8 @@
                             <div class="d-flex">
                                 <i id="bulbIcon2" class="far fa-lightbulb text-dark pe-1"></i>
                                 <strong> Ceiling Lights</strong>
-                                <a id ="ceilingLights" href="#" class="ms-auto"> 
-                                    <i id ="iconCL" class="fas fa-lg fa-toggle-off"></i>
+                                <a id="ceilingLights" href="#" class="ms-auto">
+                                    <i id="iconCL" class="fas fa-lg fa-toggle-off"></i>
                                 </a>
                             </div>
                             <div class="card-text">5 minutes ago</div>
@@ -117,8 +117,8 @@
                             <div class="d-flex">
                                 <i id="bulbIcon3" class="far fa-lightbulb text-dark pe-1"></i>
                                 <strong> Ambient Lights</strong>
-                                <a id ="ambientLights" href="#" class="ms-auto"> 
-                                    <i id ="iconAL" class="fas fa-lg fa-toggle-off"></i>
+                                <a id="ambientLights" href="#" class="ms-auto">
+                                    <i id="iconAL" class="fas fa-lg fa-toggle-off"></i>
                                 </a>
                             </div>
                             <div class="card-text">7 minutes ago</div>
@@ -127,8 +127,8 @@
                             <div class="d-flex">
                                 <i id="bulbIcon4" class="fas fa-music text-primary pe-1"></i>
                                 <strong> Ambient Music</strong>
-                                <a id ="ambientMusic" href="#" class="ms-auto"> 
-                                    <i id ="iconAM" class="fas fa-lg fa-toggle-off"></i>
+                                <a id="ambientMusic" href="#" class="ms-auto">
+                                    <i id="iconAM" class="fas fa-lg fa-toggle-off"></i>
                                 </a>
                             </div>
                             <div class="card-text">17 minutes ago</div>
@@ -167,6 +167,79 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+
+    <span class="border border-bottom-0"></span>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Weather</h5>
+                        <div class="card-group">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-thermometer-half pe-1"></i>
+                                            <strong> Temperature </strong>
+                                            <div id="currentTemp" class="ms-auto"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-temperature-high text-danger pe-1"></i>
+                                            <strong> Max. Temperature </strong>
+                                            <div id="maxTemp" class="ms-auto"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-temperature-low text-primary pe-1"></i>
+                                            <strong> Min. Temperature </strong>
+                                            <div id="minTemp" class="ms-auto"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-percentage text-info pe-1"></i>
+                                            <strong> Humidity </strong>
+                                            <div id="humidity" class="ms-auto"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-body">
+                                    <div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-sun text-warning pe-1"></i>
+                                            <strong> Sunrise Time </strong>
+                                            <div id="sunriseTime" class="ms-auto"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex">
+                                            <i class="far fa-sun text-warning pe-1"></i>
+                                            <strong> Sunset Time </strong>
+                                            <div id="sunsetTime" class="ms-auto"></div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex">
+                                            <i class="fas fa-history text-sucess pe-1"></i>
+                                            <strong> Fetched Time </strong>
+                                            <div id="fetchedTime" class="ms-auto"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
